@@ -37,8 +37,8 @@ Before you run the project, make sure you have the following installed:
 
 You can install the required dependencies using the following:
 
-```bash
 pip install qiskit streamlit matplotlib numpy scipy
+
 
 
 **Running the project**
