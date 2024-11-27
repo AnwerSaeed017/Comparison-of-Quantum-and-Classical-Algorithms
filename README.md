@@ -17,6 +17,8 @@ The project utilizes **Qiskit** for simulating quantum algorithms and **Streamli
 ## Features
 
 - **Interactive Web Interface**: Built using **Streamlit**, it allows users to input numbers and compare the performance of quantum vs classical algorithms.
+- **Graph for benchmark Results**: Shows oracle calls vs Problem size for linear search and grover.
+- **Detailed Results**: Shows detailed results for grover and linear search based on oracle calls. Also shows summary statistics like average quantum speedup, average circuit depth, average success rate.
 - **Visualization of Quantum Circuits**: Visualizes the quantum circuits used in Shor’s algorithm, including modular exponentiation, quantum Fourier transform (QFT), and measurements.
 - **Speedup Analysis**: The application calculates and plots the speedup ratio of Shor’s algorithm compared to GNFS for a range of input sizes.
 - **Circuit Depth & Qubit Analysis**: Estimates and visualizes the resource requirements (qubits and circuit depth) for Shor’s algorithm across different input sizes.
