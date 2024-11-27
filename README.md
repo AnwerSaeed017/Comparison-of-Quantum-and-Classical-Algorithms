@@ -47,6 +47,8 @@ First clone the repository
 
 Then navigate into project directory
 
-Then on terminal run
-streamlit run app.py for comparison of grover and linear search
-streamlit run compare.py for comparison of shor and gnfs 
+Then on terminal run:
+
+streamlit run app.py -- for comparison of grover and linear search
+
+streamlit run compare.py --for comparison of shor and gnfs 
